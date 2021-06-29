@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NasaGallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wiki_helper_text">Поищите термин в википедии</string>
+    <string name="search_in_wiki">Search in wiki</string>
+    <string name="photo_description">Photo Description</string>
+</resources>
