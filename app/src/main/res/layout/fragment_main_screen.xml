@@ -22,6 +22,7 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:backgroundTint="@color/background"
                 android:hint="@string/search_in_wiki"
                 app:counterEnabled="true"
                 app:counterMaxLength="20"
@@ -37,7 +38,8 @@
                     android:id="@+id/input_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="text" />
+                    android:inputType="text"
+                    android:textColor="@color/text_color" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <xyz.fcr.nasagallery.EquilateralImageView
@@ -46,6 +48,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:contentDescription="@string/photo_description"
+                android:tint="@color/text_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -72,9 +75,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
+        android:contentDescription="TODO"
         app:layout_anchor="@id/bottom_app_bar"
-        app:srcCompat="@drawable/ic_plus_fab"
-        app:tint="#FFFFFF"
-        android:contentDescription="TODO" />
+        app:srcCompat="@drawable/ic_plus_fab" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
