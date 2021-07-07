@@ -5,4 +5,8 @@
     <string name="wiki_helper_text">Поищите термин в википедии</string>
     <string name="search_in_wiki">Search in wiki</string>
     <string name="photo_description">Photo Description</string>
+
+    <string name="action_theme">Choose theme</string>
+    <string name="action_theme_light">Light</string>
+    <string name="action_theme_dark">Dark</string>
 </resources>
